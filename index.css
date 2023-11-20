@@ -1,10 +1,11 @@
 /* This is an example CSS file, feel free to remove/edit it anytime */
 .footer {
-
+  clip-path:circle();
   display:flex;
   align-items: center;
   justify-content:center;
-  
+  border-radius:50%;
+  box-shadow:grey 0 0 10px 10px;
   position: absolute;
   bottom: 0;
   left: 0;
